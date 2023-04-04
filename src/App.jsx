@@ -6,9 +6,9 @@ import Button from './components/Button';
 import { FiGithub, FiLinkedin, FiDownloadCloud, FiMail} from "react-icons/fi";
 import conhecimentos from './conhecimentos';
 import Projeto from './components/Projeto';
-import curriculo from '../src/images/curriculo.pdf'
+import link from 'https://drive.google.com/file/d/1YAUF1VdEfP0aDPu3_GkFEP0jRxGkEXsQ/view?usp=sharing'
 
-function App(props) {
+function App() {
   const [descriAtual, setDescriAtual] = useState('HTML5 é uma linguagem de marcação para a World Wide Web e é uma tecnologia chave da Internet, originalmente proposto por Opera Software. É a quinta versão da linguagem HTML.');
   const [observacaoAtual, setObservacaoAtual] = useState('OBS: meu código é muito clean, gosto de páginas estáticas.');
   const [porcentAtual, setPorcentAtual] = useState(90);
@@ -31,7 +31,7 @@ function App(props) {
               <div className='container sec1conteudo flex'>
                   <h2>Olá, eu sou <br/> <span>leonardo coelho</span> <br/> Desenvolvedor Front-end  </h2>
                   <div className='btns flex'>
-                  <Button   cor1='#9358F7' cor2='#10D7E2' name='Linkedin' icon={FiLinkedin} caminho='https://drive.google.com/file/d/1YAUF1VdEfP0aDPu3_GkFEP0jRxGkEXsQ/view?usp=sharing' />
+                  <Button caminho={link}  cor1='#9358F7' cor2='#10D7E2' name='Linkedin' icon={FiLinkedin}  />
                   <Button cor1='#D24074' cor2='#6518B4' name='Github' icon={FiGithub} />
                   </div>
               </div>
