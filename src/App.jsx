@@ -6,7 +6,6 @@ import Button from './components/Button';
 import { FiGithub, FiLinkedin, FiDownloadCloud, FiMail} from "react-icons/fi";
 import conhecimentos from './conhecimentos';
 import Projeto from './components/Projeto';
-import Ripples from 'react-ripples'
 
 function App() {
   const [descriAtual, setDescriAtual] = useState('HTML5 é uma linguagem de marcação para a World Wide Web e é uma tecnologia chave da Internet, originalmente proposto por Opera Software. É a quinta versão da linguagem HTML.');
@@ -57,7 +56,7 @@ function App() {
               <div className="areas container centerbetween flex">
                 <div className="images flex">
                   {conhecimentos.map((conhecimento)=> (
-                   <Ripples color="#c4c4c4" className='cardcon flex'><img src={conhecimento.img} alt={conhecimento.descri}   onClick={() => handleMouseOver(conhecimento)} /></Ripples>
+                   <div color="#c4c4c4" className='cardcon flex'><img src={conhecimento.img} alt={conhecimento.descri}   onClick={() => handleMouseOver(conhecimento)} /></div>
                   ))}
                 </div>
                 <div className="descri flex">
