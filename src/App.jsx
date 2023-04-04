@@ -31,7 +31,7 @@ function App() {
               <div className='container sec1conteudo flex'>
                   <h2>Olá, eu sou <br/> <span>leonardo coelho</span> <br/> Desenvolvedor Front-end  </h2>
                   <div className='btns flex'>
-                  <Button   cor1='#9358F7' cor2='#10D7E2' name='Linkedin' icon={FiLinkedin} caminho={curriculo} />
+                  <Button   cor1='#9358F7' cor2='#10D7E2' name='Linkedin' icon={FiLinkedin} caminho='https://drive.google.com/file/d/1YAUF1VdEfP0aDPu3_GkFEP0jRxGkEXsQ/view?usp=sharing' />
                   <Button cor1='#D24074' cor2='#6518B4' name='Github' icon={FiGithub} />
                   </div>
               </div>
