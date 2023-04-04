@@ -8,7 +8,7 @@ import conhecimentos from './conhecimentos';
 import Projeto from './components/Projeto';
 import curriculo from '../src/images/curriculo.pdf'
 
-function App() {
+function App(props) {
   const [descriAtual, setDescriAtual] = useState('HTML5 é uma linguagem de marcação para a World Wide Web e é uma tecnologia chave da Internet, originalmente proposto por Opera Software. É a quinta versão da linguagem HTML.');
   const [observacaoAtual, setObservacaoAtual] = useState('OBS: meu código é muito clean, gosto de páginas estáticas.');
   const [porcentAtual, setPorcentAtual] = useState(90);
