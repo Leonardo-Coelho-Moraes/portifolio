@@ -73,7 +73,7 @@ function App() {
               <div className='sec4conteudo container'>
                 <h1>Projetos</h1>
                     <div className="projetos centerbetween flex">
-                    <Projeto link='#home'/>
+                    <Projeto link='https://pokemon-woad-ten.vercel.app/'/>
                     <Projeto link='#'/>
                     <Projeto link='https://www.youtube.com/'/>
                     <Projeto link='https://neoxscans.net/'/>
