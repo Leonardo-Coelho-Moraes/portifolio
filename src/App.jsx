@@ -6,6 +6,9 @@ import Button from './components/Button';
 import { FiGithub, FiLinkedin, FiDownloadCloud, FiMail} from "react-icons/fi";
 import conhecimentos from './conhecimentos';
 import Projeto from './components/Projeto';
+import escola from './images/escola.png'
+import login from './images/login.png'
+import pokemon from './images/pokemon.png'
 
 
 function App() {
@@ -73,11 +76,10 @@ function App() {
             <section className='sec4 width100 flex' id='projetos'>
               <div className='sec4conteudo container'>
                 <h1>Projetos</h1>
-                    <div className="projetos centerbetween flex">
-                    <Projeto link='https://pokemon-woad-ten.vercel.app/'/>
-                    <Projeto link='#'/>
-                    <Projeto link='https://www.youtube.com/'/>
-                    <Projeto link='https://neoxscans.net/'/>
+                    <div className="projetos flex">
+                    <Projeto link='https://pokemon-woad-ten.vercel.app/' imagem={pokemon} projetoNome="Pokédata" descricaoProjeto='Pokédata faz o uso da pokeApi para exibir todos os pokemons que existem.' tecnologia='Site feito com Next.js'/>
+                    <Projeto link='https://react-escola.vercel.app/' imagem={escola} projetoNome="Plataforma Escola" descricaoProjeto='Esse site é um exemplo de uma plataforma escola, para exibir noticias, projetos e o que você quise, o modelo reutilizado.' tecnologia='Site feito com React.js'/>
+                    <Projeto link='https://pokemon-woad-ten.vercel.app/' imagem={login} projetoNome="Log in" descricaoProjeto='Uma página de login do minecraft a ideia é uma remodelação da conta no site do minecraft' tecnologia='Site feito com React.js'/>
 
                     </div>
               </div>
